@@ -8,6 +8,9 @@ O jogo se trata de um remix entre super mario e megamen
 # Integrantes do Projeto
 
 João Paulo 
+
 Renan Zeni
+
 Jhonatan Camargo
+
 Rafael Ferreti
