@@ -1,0 +1,12 @@
+WindowsStandalone
+SceneListBegin?
+Assets/World_1-1.unity
+SceneListEnd?
+ebd27bf1a984d085630c18f73abfb3fe Assembly-CSharp.dll:.BulletScript
+5c57ff0994f6acd5ec19a38580e9af34 Assembly-CSharp.dll:.CameraFollow
+322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
+dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
+85593b92c61b1a980b54f3bd2fd386d7 Assembly-CSharp.dll:.EnemyBase
+05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
+05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+f16a0cde8cad45563fecb6f2be38409b Assembly-CSharp.dll:.Personagem
