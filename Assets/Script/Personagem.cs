@@ -12,10 +12,6 @@ public class Personagem : MonoBehaviour {
 
     //Shoting
 
-        [SerializeField]
-    private float shootingRate = 0.2f;
-        [SerializeField]
-    private float shotCooldown = 3;
     public Transform spawnBullet;
     public GameObject bullet;
 
@@ -30,14 +26,9 @@ public class Personagem : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (shotCooldown > 0) {
-            shotCooldown -= Time.deltaTime;
-        }
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Anim.SetBool("atk", true);
-            //SimpleAtk();
-            shotCooldown = shootingRate;
         }
         else if (Input.GetKeyUp(KeyCode.Z))
         {
@@ -100,8 +91,6 @@ public class Personagem : MonoBehaviour {
 
     public void SimpleAtk()
     {
-        if (shotCooldown < 0)
-        {
             if (bullet != null)
             {
 				if (direcaotiro == 'D'){
@@ -111,6 +100,5 @@ public class Personagem : MonoBehaviour {
 				var cloneBullet = Instantiate(bullet,spawnBullet.position,Quaternion.identity);
                 cloneBullet.transform.localScale = -this.transform.localScale;				
 			}}
-        }
     }
 }
